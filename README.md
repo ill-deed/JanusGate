@@ -43,7 +43,7 @@ It implements channel isolation, tamper-evident transport, replay protection, an
 - Operates in a *zero-trust* model — blind to message contents.
 
 ### 2. **Client**
-- Derives a 256-bit symmetric key from the passphrase using scrypt (memory- and CPU-hard).
+- Derives a 256-bit symmetric key from the passphrase using scrypt.
 - Encrypts messages with AES-256-GCM, using random nonces and AAD for integrity.
 - Tracks highest message counter per remote sender to block replays.
 - Sanitizes outgoing and incoming messages to prevent terminal-based exploits.
