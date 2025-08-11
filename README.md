@@ -94,6 +94,7 @@ JanusGate defends against:
 - Malicious relay operator tampering with ciphertext.
 - Injection of control sequences or terminal exploits.
 - Replay of old messages.
+
 It does not defend against:
 - Compromised client devices.
 - Passphrase disclosure by channel participants.
