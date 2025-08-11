@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="logo.png" alt="JanusGate" width="300">
+</p>
+
 # JanusGate
 
 **JanusGate** is a Python-based, end-to-end encrypted (E2EE) communications relay framework designed for secure, compartmentalized message exchange over untrusted networks.  
