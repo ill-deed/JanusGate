@@ -99,8 +99,6 @@ It does not defend against:
 - Compromised client devices.
 - Passphrase disclosure by channel participants.
 
-Traffic analysis revealing communication patterns.
-
 ---
 
 ## Disclaimer
